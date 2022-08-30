@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) throws IOException, ParseException {
 
         initialize();
-
+        LoginFrame loginFrame = new LoginFrame(employeeList);
     }
 
     private static Employee parseEmployeeJSONObject(JSONObject employeeJSONObject) {
